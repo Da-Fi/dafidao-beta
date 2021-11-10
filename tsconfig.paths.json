@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@src": ["./"],
+      "@src/*": ["./*"],
+      "@client": ["client"],
+      "@client/*": ["client/*"],
+      "@assets": ["client/assets"],
+      "@assets/*": ["client/assets/*"],
+      "@components": ["client/components"],
+      "@components/*": ["client/components/*"],
+      "@containers": ["client/containers"],
+      "@containers/*": ["client/containers/*"],
+      "@context": ["client/context"],
+      "@hooks": ["client/hooks"],
+      "@hooks/*": ["client/hooks/*"],
+      "@i18n": ["client/i18n"],
+      "@i18n/*": ["client/i18n/*"],
+      "@routes": ["client/routes"],
+      "@routes/*": ["client/routes/*"],
+      "@themes": ["client/themes"],
+      "@themes/*": ["client/themes/*"],
+      "@config": ["config"],
+      "@config/*": ["config/*"],
+      "@core": ["core"],
+      "@core/*": ["core/*"],
+      "@container": ["core/container"],
+      "@frameworks/*": ["core/frameworks/*"],
+      "@services": ["core/services"],
+      "@services/*": ["core/services/*"],
+      "@providers/*": ["core/providers/*"],
+      "@store": ["core/store"],
+      "@store/*": ["core/store/*"],
+      "@types": ["core/types"],
+      "@types/*": ["core/types/*"],
+      "@useCases/*": ["core/useCases/*"],
+      "@scripts": ["scripts"],
+      "@utils": ["utils"],
+      "@utils/*": ["utils/*"]
+    }
+  }
+}
