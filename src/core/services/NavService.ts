@@ -100,7 +100,7 @@ export class NavServiceImpl implements NavService {
       };
     } catch (error) {
       // TODO handle error
-      errors.push('YveCrv Nav Error');
+      //errors.push('YveCrv Nav Error');
     }
 
     // **************** YVBOOST ****************
@@ -143,7 +143,7 @@ export class NavServiceImpl implements NavService {
         },
       };
     } catch (error) {
-      errors.push('YvBoost Nav Error');
+      //errors.push('YvBoost Nav Error');
     }
 
     // **************** YVBOOST-ETH ****************
@@ -196,7 +196,7 @@ export class NavServiceImpl implements NavService {
         },
       };
     } catch (error) {
-      errors.push('YvBoost-Eth Nav Error');
+      //errors.push('YvBoost-Eth Nav Error');
     }
 
     // ********************************
@@ -286,7 +286,7 @@ export class NavServiceImpl implements NavService {
 
       backscratcherPositions = [backscratcherDepositPosition, backscratcherYieldPosition];
     } catch (error) {
-      errors.push('YveCrv positions error');
+      //errors.push('YveCrv positions error');
     }
 
     // **************** YVBOOST ****************
@@ -328,7 +328,7 @@ export class NavServiceImpl implements NavService {
 
       yvBoostPositions = [yvBoostDepositPosition];
     } catch (error) {
-      errors.push('YvBoost positions error');
+      //errors.push('YvBoost positions error');
     }
 
     // **************** YVBOOST-ETH ****************
@@ -389,7 +389,7 @@ export class NavServiceImpl implements NavService {
 
       yvBoostEthPositions = [yvBoostEthDepositPosition, yvBoostEthStakePosition];
     } catch (error) {
-      errors.push('YvBoost-Eth positions error');
+      //errors.push('YvBoost-Eth positions error');
     }
 
     // ********************************
