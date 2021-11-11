@@ -1,6 +1,6 @@
 {
   "welcome-card": {
-    "desc-1": "The cards below show the total balance and utilization of your wallet, and the holdings and performance for every product you use.",
+    "desc-1": "The cards below show the balance and utilization of your wallet, and your product specific performance.",
     "desc-2": "Not sure where to start? Check out “Vaults” on the left side navigation.",
     "header": "Welcome to DAFIDAO - a Data Agnostic Functional Interoperability blockchain engineering community and DAO."  
   }
