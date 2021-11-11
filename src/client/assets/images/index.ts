@@ -1,6 +1,6 @@
 import AlchemyCertified from './alchemy-certified.svg';
-import YearnLogoFull from './dafidao-full-txt-logo.svg';
-import YearnLogo from './dafidao-icon-only-tprntfull.svg';
+import YearnLogoFull from './text-tp-buffer.svg';
+import YearnLogo from './dafidao-logo-on.svg';
 import YearnSplash from './yearn-splash.png';
 import MetamaskLogo from './metamask-logo.png';
 

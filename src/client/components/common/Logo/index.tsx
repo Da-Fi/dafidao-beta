@@ -1,8 +1,8 @@
 import { FC } from 'react';
 import styled from 'styled-components';
 
-import { ReactComponent as LogoSimple } from '@assets/images/dafidao-icon-only-tprntfull.svg';
-import { ReactComponent as LogoFull } from '@assets/images/dafidao-text-95x25.svg';
+import { ReactComponent as LogoSimple } from '@assets/images/dafidao-logo-on.svg';
+import { ReactComponent as LogoFull } from '@assets/images/text-tp-buffer.svg';
 
 export interface LogoProps {
   className?: string;
