@@ -45,12 +45,12 @@ Code style follows prettier conventions (`yarn prettier`). Commit messages follo
 
 - set upstream to your fork
 
-`$ git remote add upstream https://github.com/<your-gh>>/yearn-finance-v3`
+`$ git remote add upstream https://github.com/<your-gh>>/dafidao-beta.git
 
 
 - set origin to original repo
 
-`$ git remote add origin https://github.com/yearn/yearn-finance-v3.git`
+`$ git remote add origin https://github.com/Da-Fi/dafidao-beta.git`
 
 `$ git pull origin master --rebase`
 
