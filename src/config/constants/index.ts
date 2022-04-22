@@ -21,7 +21,6 @@ const ADDRESSES = {
   YFI: '0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e',
   'DA-FI': '0xeaad65885fea47a3b1258935f4ce83aab06fdd3a',
 };
-const { 'DA-FI': DAFIKEY } = ADDRESSES;
 const NETWORK_SETTINGS: NetworkSettings = {
   mainnet: {
     id: 'mainnet',
@@ -51,6 +50,7 @@ const NETWORK_SETTINGS: NetworkSettings = {
 
 export const getConstants = memoize((): Constants => {
   const { ALCHEMY_API_KEY } = getEnv();
+  const { 'DA-FI': DAFIKEY } = ADDRESSES;
   return {
     STATE_VERSION: 1,
     ETHEREUM_ADDRESS: ADDRESSES.ETH,
@@ -75,7 +75,7 @@ export const getConstants = memoize((): Constants => {
     SLIPPAGE_OPTIONS: [0.01, 0.02, 0.03],
     DEFAULT_SLIPPAGE: 0.01,
     IRON_BANK_MAX_RATIO: 0.8,
-    ZAP_OUT_TOKENS: [ADDRESSES.ETH, ADDRESSES.DAI, ADDRESSES.USDC, ADDRESSES.USDT, ADDRESSES.WBTC, ADDRESSES.'DA-FI'],
+    ZAP_OUT_TOKENS: [ADDRESSES.ETH, ADDRESSES.DAI, ADDRESSES.USDC, ADDRESSES.USDT, ADDRESSES.WBTC, ADDRESSES.DAFIKEY],
     DEFAULT_THEME: 'light',
     AVAILABLE_THEMES: ['light', 'dark', 'cyberpunk', 'classic'],
     DEFAULT_ALERT_TIMEOUT: 3000,
