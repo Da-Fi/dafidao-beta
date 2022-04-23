@@ -80,8 +80,8 @@ export const getConstants = memoize((): Constants => {
                     ······ADDRESSES.USDC, 
                     ······ADDRESSES.USDT, 
                     ······ADDRESSES.WBTC, 
-                    ······ADDRESSES(['DA-FI']),
-                    ····]` prettier/prettier
+                    ······ADDRESSES(['DA-FI'])
+                    ····],`prettier/prettier
     DEFAULT_THEME: 'light',
     AVAILABLE_THEMES: ['light', 'dark', 'cyberpunk', 'classic'],
     DEFAULT_ALERT_TIMEOUT: 3000,
