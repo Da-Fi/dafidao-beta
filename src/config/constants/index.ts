@@ -57,7 +57,7 @@ const NETWORK_SETTINGS: NetworkSettings = {
     earningsEnabled: false,
     notifyEnabled: false,
     blockExplorerUrl: 'https://moonscan.io/address/',
-  }`,` prettier/prettier
+  }`,`
 };
 
 export const getConstants = memoize((): Constants => {
