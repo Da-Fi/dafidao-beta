@@ -62,7 +62,7 @@ export const getProviderType = (network: Network): ProviderType => {
     case 'fantom':
       return 'fantom';
     case 'moonbeam':
-      return 'moonbeam'; 
+      return 'moonbeam'; // prettier-ignore 
     default:
       throw Error('Unknown Network');
   }
