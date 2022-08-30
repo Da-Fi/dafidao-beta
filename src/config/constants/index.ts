@@ -88,11 +88,7 @@ export const getConstants = memoize((): Constants => {
     SLIPPAGE_OPTIONS: [0.01, 0.02, 0.03],
     DEFAULT_SLIPPAGE: 0.01,
     IRON_BANK_MAX_RATIO: 0.8,
-<<<<<<< HEAD
     ZAP_OUT_TOKENS: [ADDRESSES.ETH, ADDRESSES.DAI, ADDRESSES.USDC, ADDRESSES.USDT, ADDRESSES.WBTC, ADDRESSES.DAFIDAO], // prettier-ignore
-=======
-    ZAP_OUT_TOKENS: [ADDRESSES.ETH, ADDRESSES.DAI, ADDRESSES.USDC, ADDRESSES.USDT, ADDRESSES.WBTC, ADDRESSES([`'DA-FI'`])],
->>>>>>> parent of 43dbef2 (Update index.ts)
     DEFAULT_THEME: 'light',
     AVAILABLE_THEMES: ['light', 'dark', 'cyberpunk', 'classic'],
     DEFAULT_ALERT_TIMEOUT: 3000,
