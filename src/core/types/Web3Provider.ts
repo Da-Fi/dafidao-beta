@@ -1,6 +1,6 @@
 import { JsonRpcProvider, JsonRpcSigner } from '@ethersproject/providers';
 
-export type ProviderType = 'custom' | 'wallet' | 'ethereum' | 'fantom' | 'moonbeam';
+export type ProviderType = 'custom' | 'wallet' | 'ethereum' | 'fantom';
 
 export interface Web3Provider {
   hasInstanceOf: (type: ProviderType) => boolean;

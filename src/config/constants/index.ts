@@ -46,18 +46,6 @@ const NETWORK_SETTINGS: NetworkSettings = {
     notifyEnabled: false,
     blockExplorerUrl: 'https://ftmscan.com/address/',
   },
-  moonbeam: {
-    id: 'moonbeam',
-    name: 'Moonbeam',
-    networkId: 1284,
-    simulationsEnabled: false,
-    zapsEnabled: false,
-    navsEnabled: false,
-    ironBankEnabled: true,
-    earningsEnabled: false,
-    notifyEnabled: false,
-    blockExplorerUrl: 'https://moonscan.io/address/',
-  }, // prettier-ignore
 };
 
 export const getConstants = memoize((): Constants => {
@@ -67,12 +55,11 @@ export const getConstants = memoize((): Constants => {
     ETHEREUM_ADDRESS: ADDRESSES.ETH,
     MAX_UINT256: '115792089237316195423570985008687907853269984665640564039457584007913129639935',
     YEARN_API: 'https://api.yearn.finance/v1/chains/1/vaults/all',
-    SUPPORTED_NETWORKS: ['mainnet', 'fantom', 'moonbeam'],
+    SUPPORTED_NETWORKS: ['mainnet', 'fantom'],
     NETWORK_SETTINGS,
     WEB3_PROVIDER_HTTPS: `https://eth-mainnet.alchemyapi.io/v2/${ALCHEMY_API_KEY}`,
     WEB3_PROVIDER_WSS: `wss://eth-mainnet.ws.alchemyapi.io/v2/${ALCHEMY_API_KEY}`,
     FANTOM_PROVIDER_HTTPS: 'https://rpc.ftm.tools',
-    MOONBEAM_PROVIDER_HTTPS: 'https://rpic.api.moonbeam.network',
     CONTRACT_ADDRESSES: {
       zapIn: '0x92Be6ADB6a12Da0CA607F9d87DB2F9978cD6ec3E',
       zapOut: '0xd6b88257e91e4E4D4E990B3A858c849EF2DFdE8c',

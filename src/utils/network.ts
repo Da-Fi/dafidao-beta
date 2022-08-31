@@ -15,8 +15,6 @@ export const getNetworkId = (network: Network): number => {
       return 42;
     case 'fantom':
       return 250;
-    case 'moonbeam':
-      return 1284;
   }
 };
 
@@ -34,22 +32,18 @@ export const getNetwork = (networkId: number): Network => {
       return 'kovan';
     case 250:
       return 'fantom';
-    case 1284:
-      return 'moonbeam';
     default:
       throw Error('Unknown Network');
   }
 };
 
 export const getNetworkRpc = (network: Network): string => {
-  const { WEB3_PROVIDER_HTTPS, FANTOM_PROVIDER_HTTPS, MOONBEAM_PROVIDER_HTTPS } = getConfig();
+  const { WEB3_PROVIDER_HTTPS, FANTOM_PROVIDER_HTTPS } = getConfig();
   switch (network) {
     case 'mainnet':
       return WEB3_PROVIDER_HTTPS;
     case 'fantom':
       return FANTOM_PROVIDER_HTTPS;
-    case 'moonbeam':
-      return MOONBEAM_PROVIDER_HTTPS;
     default:
       throw Error('Unknown Network');
   }
@@ -61,8 +55,6 @@ export const getProviderType = (network: Network): ProviderType => {
       return 'ethereum';
     case 'fantom':
       return 'fantom';
-    case 'moonbeam':
-      return 'moonbeam'; // prettier-ignore
     default:
       throw Error('Unknown Network');
   }
