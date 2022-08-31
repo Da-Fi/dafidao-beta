@@ -11,7 +11,7 @@ interface FooterProps {
 
 const footerLinks = [
   {
-    link: 'https://github.com/The-Blockchain-Company',
+    link: 'https://github.com/Da-Fi',
     name: 'gov',
   },
   {
@@ -23,11 +23,11 @@ const footerLinks = [
     name: 'security',
   },
   // {
-  //   link: 'https://v1.yearn.finance',
+  //   link: 'https://app.da-fi.eth.link',
   //   name: 'v1',
   // },
   // {
-  //   link: 'https://yearn.finance',
+  //   link: 'https://da-fi.eth',
   //   name: 'v2',
   // },
   {
@@ -38,24 +38,24 @@ const footerLinks = [
 
 const socialLinks = [
   {
-    link: 'https://twitter.com/DaFi_DAO',
+    link: 'https://twitter.com/quantumonedlt',
     icon: TwitterIcon,
   },
   {
-    link: 'https://github.com/Da-Fi',
+    link: 'https://github.com/Da-Fi/dafidao-beta',
     icon: GithubIcon,
   },
   {
-    link: 'https://discord.com/channels/797319191107338271/797319609514459168',
+    link: 'https://discord.gg/GZb5Gf7wX5',
     icon: DiscordIcon,
   },
   {
-    link: 'https://medium.com/@robert-mourey-jr',
+    link: 'https://medium.com/@quantum-one-dao',
     icon: MediumIcon,
   },
   {
-    link: 'https://t.me/DaFi_DAO',
-    icon: TelegramIcon,
+    link: 'https://github.com/quantum-one-dlt',
+    icon: GithubIcon,
   },
 ];
 
