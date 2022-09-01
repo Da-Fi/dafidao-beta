@@ -12,11 +12,11 @@ interface FooterProps {
 const footerLinks = [
   {
     link: 'https://fractal.id/authorize?client_id=rZ0cAmPpY2SPgF4bXqBrzndqoTzk1EYsq4RtQ1fNhe0&redirect_uri=https%3A%2F%2Fquantumone.network%2Fcallback&response_type=code&scope=contact%3Aread%20verification.basic%3Aread%20verification.basic.details%3Aread%20verification.liveness%3Aread%20verification.liveness.details%3Aread',
-    name: 'Verify ID',
+    name: 'gov',
   },
   {
     link: 'https://www.notion.so/quantumone/Quantum-One-Whitepaper-7df3771e24184020b3ffbf808d140ae6',
-    name: 'Whitepaper',
+    name: 'docs',
   },
   {
     link: 'https://github.com/Da-Fi/dafidao-beta',
