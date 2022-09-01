@@ -22,16 +22,16 @@ const footerLinks = [
     link: 'https://quantumone.network',
     name: 'security',
   },
-//
-// {
-//   link: 'https://app.da-fi.eth.link',
-//   name: 'v1',
-// },
-// {
-//   link: 'https://da-fi.eth.link',
-//   name: 'v2',
-// },
-//
+  //
+  // {
+  //   link: 'https://app.da-fi.eth.link',
+  //   name: 'v1',
+  // },
+  // {
+  //   link: 'https://da-fi.eth.link',
+  //   name: 'v2',
+  // },
+  //
   {
     link: '/disclaimer',
     name: 'disclaimer',
