@@ -27,7 +27,7 @@ const footerLinks = [
     name: 'v1',
   },
   {
-     link: 'https://da-fi.eth',
+     link: 'https://da-fi.eth.link',
      name: 'v2',
   },
   {
