@@ -12,6 +12,7 @@
     },
     "list-card": {
       "apy": "APY",
+      "add": "Add",
       "available-deposit": "Available to deposit",
       "available-stake": "Available to stake",
       "available-supply": "Available to supply",
@@ -27,6 +28,7 @@
       "opportunities": "Opportunities",
       "price": "Price",
       "supplying": "Supplying",
+      "remove": "Remove",
       "tokens": "Tokens",
       "total-assets": "Total assets",
       "value": "Value"
@@ -37,6 +39,7 @@
     },
     "transaction": {
       "approve": "Approve",
+      "add-liquidity": "Add Liquidity",
       "available-borrow": "Available to borrow",
       "borrow": "Borrow",
       "borrow-limit": {
@@ -56,6 +59,7 @@
       "migrate": "Migrate",
       "reinvest": "Reinvest",
       "repay": "Repay",
+      "remove-liquidity": "Remove Liquidity",
       "reward": "Reward",
       "stake": "Stake",
       "status": {
@@ -81,6 +85,7 @@
   },
   "dashboard": {
     "apy": "APY",
+    "add": "Add",
     "available": "Available",
     "available-deposit": "Available to deposit",
     "borrow-limit-total": "Total borrow limit",
@@ -88,6 +93,7 @@
     "borrowed": "Borrowed",
     "earnings": "Earnings",
     "est-yearly-yield": "Est. yearly yield",
+    "liquidity": "Liquidity",
     "holdings": "Holdings",
     "supplied": "Supplied",
     "total-net-worth": "Total net worth",
@@ -103,7 +109,10 @@
       "disclaimer": "Disclaimer",
       "docs": "Docs",
       "gov": "Gov",
-      "security": "Security"
+      "security": "Security",
+      "whitepaper": "Whitepaper",
+      "github": "GitHub",
+      "dao gov": "DAO Gov"
     }
   },
   "languages": {
