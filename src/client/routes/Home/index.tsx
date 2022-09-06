@@ -110,8 +110,8 @@ export const Home = () => {
           Component={
             <Text>
               <p>
-                {t('components.beta-card.desc-1')} <StyledLink href="https://discord.gg/GZb5Gf7wX5">Discord</StyledLink>`{'·'}
-                               `
+                {t('components.beta-card.desc-1')} <StyledLink href="https://discord.gg/GZb5Gf7wX5">Discord</StyledLink>
+                ``{'·'}`
               </p>
             </Text>
           }
