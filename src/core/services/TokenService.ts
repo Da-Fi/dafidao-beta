@@ -158,7 +158,7 @@ export class TokenServiceImpl implements TokenService {
   private async getBalancesForFork(balances: Balance[], userAddress: string): Promise<Balance[]> {
     const signer = this.web3Provider.getSigner();
     const provider = this.web3Provider.getInstanceOf('custom');
-    const { DAI, YFI, ETH } = this.config.CONTRACT_ADDRESSES;
+    const { DAI, YFI, ETH, DAFIDAO } = this.config.CONTRACT_ADDRESSES;
 
     const daiContract = getContract(DAI, erc20Abi, signer);
     const userDaiData = balances.find((balance) => balance.address === DAI);
@@ -166,12 +166,16 @@ export class TokenServiceImpl implements TokenService {
     const yfiContract = getContract(YFI, erc20Abi, signer);
     const userYfiData = balances.find((balance) => balance.address === YFI);
 
+    const dafidaoContract = getContract(DAFIDAO, erc20Abi, signer);
+    const userDafidaoData = balances.find((balance) => balance.address === DAFIDAO);
+
     const userEthData = balances.find((balance) => balance.address === ETH);
 
-    const [daiBalance, ethBalance, yfiBalance] = await Promise.all([
+    const [daiBalance, ethBalance, yfiBalance, dafidaoBalance] = await Promise.all([
       daiContract.balanceOf(userAddress),
       provider.getBalance(userAddress),
       yfiContract.balanceOf(userAddress),
+      dafidaoContract.balanceOf(userAddress),
     ]);
 
     const newBalances: Balance[] = [];
@@ -198,6 +202,18 @@ export class TokenServiceImpl implements TokenService {
           .toFixed(0),
       };
       newBalances.push(newUserYfiData);
+    }
+
+    if (userDafidaoData) {
+      const newUserDafidaoData = {
+        ...userDafidaoData,
+        balance: dafidaoBalance.toString(),
+        balanceUsdc: toBN(userDafidaoData.priceUsdc)
+          .times(dafidaoBalance.toString())
+          .div(10 ** parseInt(userDafidaoData.token.decimals))
+          .toFixed(0),
+      };
+      newBalances.push(newUserDafidaoData);
     }
 
     if (userEthData) {
