@@ -32,6 +32,7 @@
       "tokens": "Tokens",
       "total-assets": "Total assets",
       "value": "Value"
+      "verify-id": "Verify ID",
     },
     "no-wallet": "Wallet not connected",
     "recommendations": {
@@ -110,9 +111,11 @@
       "docs": "Docs",
       "gov": "Gov",
       "security": "Security",
+      "quantaverse": "QuantaVerse",
       "whitepaper": "Whitepaper",
       "github": "GitHub",
-      "dao gov": "DAO Gov"
+      "dao-gov": "DAO Gov",
+      "verify-id": "Verify ID",
     }
   },
   "languages": {
@@ -124,10 +127,13 @@
       "big": "© DAFIDAO 2021",
       "small": "©"
     },
+    "da-fi-token": "DA-FI token",
     "disclaimer": "Disclaimer",
     "home": "Home",
     "ironbank": "Iron Bank",
     "navs": "Navs",
+    "quantaverse": "QuantaVerse", 
+    "verify-id": "Verify ID",
     "settings": "Settings",
     "vault": "Vault details",
     "vaults": "Vaults",
