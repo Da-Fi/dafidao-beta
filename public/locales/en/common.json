@@ -31,7 +31,7 @@
       "remove": "Remove",
       "tokens": "Tokens",
       "total-assets": "Total assets",
-      "value": "Value"
+      "value": "Value",
       "verify-id": "Verify ID"
     },
     "no-wallet": "Wallet not connected",
