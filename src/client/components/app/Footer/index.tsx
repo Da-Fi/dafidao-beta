@@ -16,7 +16,7 @@ const footerLinks = [
   },
   {
     link: 'https://www.notion.so/quantumone/Quantum-One-Whitepaper-7df3771e24184020b3ffbf808d140ae6',
-    name: 'docs',
+    name: 'whitepaper',
   },
   {
     link: 'https://quantumone.network',
