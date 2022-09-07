@@ -12,7 +12,7 @@ interface FooterProps {
 const footerLinks = [
   {
     link: 'https://irp.cdn-website.com/5fabe904/files/uploaded/QODAO_Charter_Community_Gov.pdf',
-    name: 'dao gov',
+    name: 'dao-gov',
   },
   {
     link: 'https://www.notion.so/quantumone/Quantum-One-Whitepaper-7df3771e24184020b3ffbf808d140ae6',
