@@ -32,7 +32,7 @@
       "tokens": "Tokens",
       "total-assets": "Total assets",
       "value": "Value"
-      "verify-id": "Verify ID",
+      "verify-id": "Verify ID"
     },
     "no-wallet": "Wallet not connected",
     "recommendations": {
@@ -115,7 +115,7 @@
       "whitepaper": "Whitepaper",
       "github": "GitHub",
       "dao-gov": "DAO Gov",
-      "verify-id": "Verify ID",
+      "verify-id": "Verify ID"
     }
   },
   "languages": {
