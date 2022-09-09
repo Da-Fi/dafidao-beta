@@ -1,4 +1,6 @@
 import { ethers } from 'ethers';
+import { useSafeAppsSDK } from '@gnosis.pm/safe-apps-react-sdk';
+import { SafeAppProvider } from '@gnosis.pm/safe-apps-provider';
 
 import { Network, RpcUrl } from '@types';
 

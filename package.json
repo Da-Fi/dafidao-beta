@@ -19,6 +19,7 @@
     "@ethersproject/address": "^5.4.0",
     "@ethersproject/contracts": "^5.4.1",
     "@ethersproject/providers": "^5.4.4",
+    "@gnosis.pm/safe-apps-react-sdk": "^4.6.2",
     "@gnosis.pm/safe-apps-web3-react": "^1.5.2",
     "@ledgerhq/iframe-provider": "0.4.2",
     "@nivo/core": "^0.68.0",
