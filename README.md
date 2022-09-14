@@ -1,4 +1,4 @@
-# DAFIDAO is a sub-DAO of Quantum One DAO. Learn More at quantumone.network
+# DAFIDAO is a sub-DAO of Quantum One DAO. Learn More at www.quantumone.network
 
 <img src="https://img.shields.io/badge/dynamic/json.svg?style=plastic&color=2096F3&label=locize&query=%24.translatedPercentage&url=https://api.locize.app/badgedata/e4f1bb87-9ed4-4f7c-8adc-d6ca4a329e52&suffix=%+translated&link=https://www.locize.com" />
 
