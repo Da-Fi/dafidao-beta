@@ -97,7 +97,6 @@
     "production": [
       "defaults",
       "not IE 11",
-      "maintained node versions",
       "not op_mini all"
     ],
     "development": [
