@@ -5,6 +5,7 @@ import { styledSystem, StyledSystemProps } from './styledSystem';
 
 export interface TabsProps extends StyledSystemProps {
   value: number | string;
+  selected: number | string;
   onChange: (value: any) => void;
 }
 
