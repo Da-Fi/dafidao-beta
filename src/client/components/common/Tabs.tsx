@@ -5,7 +5,6 @@ import { styledSystem, StyledSystemProps } from './styledSystem';
 
 export interface TabsProps extends StyledSystemProps {
   value: number | string;
-  selected: number | string;
   onChange: (value: any) => void;
 }
 
@@ -34,7 +33,7 @@ export const Tabs: FC<TabsProps> = ({ value, onChange, children, ...props }) => 
   const childrenElements = React.Children.map(children, (child) => {
     if (!React.isValidElement(child)) {
       return null;
-    }
+    } else {
 
     const childValue = child.props.value ?? childIndex;
     const selected = childValue === value;
@@ -48,7 +47,7 @@ export const Tabs: FC<TabsProps> = ({ value, onChange, children, ...props }) => 
   });
 
   return <StyledTabs {...props}>{childrenElements}</StyledTabs>;
-};
+}};
 
 export interface TabProps extends StyledSystemProps {
   value?: number | string;
