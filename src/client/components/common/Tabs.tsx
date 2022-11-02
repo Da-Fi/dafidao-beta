@@ -33,7 +33,7 @@ export const Tabs: FC<TabsProps> = ({ value, onChange, children, ...props }) => 
   const childrenElements = React.Children.map(children, (child) => {
     if (!React.isValidElement(child)) {
       return null;
-    }
+    } else {
 
     const childValue = child.props.value ?? childIndex;
     const selected = childValue === value;
@@ -47,7 +47,7 @@ export const Tabs: FC<TabsProps> = ({ value, onChange, children, ...props }) => 
   });
 
   return <StyledTabs {...props}>{childrenElements}</StyledTabs>;
-};
+}};
 
 export interface TabProps extends StyledSystemProps {
   value?: number | string;
