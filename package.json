@@ -14,6 +14,7 @@
     "checkDevLocales": "npm run syncLocales --dry true"
   },
   "dependencies": {
+    "@ankr.com/ankr.js": "^0.1.9",
     "@craco/craco": "^6.1.1",
     "@ethersproject/abi": "^5.4.0",
     "@ethersproject/address": "^5.4.0",
