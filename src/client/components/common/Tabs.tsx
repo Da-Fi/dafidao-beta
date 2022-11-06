@@ -35,20 +35,20 @@ export const Tabs: FC<TabsProps> = ({ value, onChange, children, ...props }) => 
       return null;
     } else {
 
-    const childValue = child.props.value ?? childIndex;
-    const selected = childValue === value;
+            const childValue = child.props.value ?? childIndex;
+            const selected = childValue === value;
 
-    childIndex += 1;
-    return React.cloneElement(child, {
-      selected,
-      onChange,
-      value: childValue,
-    });
-  });
-
-  return <StyledTabs {...props}>{childrenElements}</StyledTabs>;
-}};
-
+            childIndex += 1;
+            return React.cloneElement(child, {
+              selected,
+              onChange,
+              value: childValue,
+            });
+          }
+        })    
+    return <StyledTabs {...props}>{childrenElements}</StyledTabs>;
+      }
+      
 export interface TabProps extends StyledSystemProps {
   value?: number | string;
   selected?: boolean;
