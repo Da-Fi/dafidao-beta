@@ -106,7 +106,7 @@ export const Disclaimer = () => {
               The only way to fully understand such risks is to have a strong understanding of the relevant technical
               systems and the incentive design mechanisms they embody--we strongly encourage you to review Yearn’s{' '}
               <StyledLink href="https://docs.yearn.finance">technical documentation</StyledLink> and{' '}
-              <StyledLink href="https://github.com/Da-Fi">code</StyledLink> before use.
+              <StyledLink href="https://github.com/De-Fi-Protocol-com">code</StyledLink> before use.
             </Text>
           </div>
         }

@@ -111,7 +111,6 @@
       "docs": "Docs",
       "gov": "Gov",
       "security": "Security",
-      "quantaverse": "QuantaVerse",
       "whitepaper": "Whitepaper",
       "github": "GitHub",
       "dao-gov": "DAO Gov",
@@ -124,15 +123,13 @@
   },
   "navigation": {
     "copyright": {
-      "big": "© DAFIDAO 2021",
+      "big": "© De-Fi Protocol.com 2023",
       "small": "©"
     },
-    "da-fi-token": "DA-FI token",
     "disclaimer": "Disclaimer",
     "home": "Home",
     "ironbank": "Iron Bank",
     "navs": "Navs",
-    "quantaverse": "QuantaVerse", 
     "verify-id": "Verify ID",
     "settings": "Settings",
     "vault": "Vault details",

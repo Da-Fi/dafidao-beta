@@ -1,8 +1,8 @@
 import { FC } from 'react';
 import styled from 'styled-components';
 
-import { ReactComponent as LogoSimple } from '@assets/images/quantum-one-logo.svg';
-import { ReactComponent as LogoFull } from '@assets/images/qone-circle-64x64.svg';
+import { ReactComponent as LogoSimple } from '@assets/images/defiproto.svg';
+import { ReactComponent as LogoFull } from '@assets/images/defiproto2.svg';
 
 export interface LogoProps {
   className?: string;

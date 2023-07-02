@@ -49,7 +49,7 @@ export class BlocknativeWalletImpl implements Wallet {
     const { BLOCKNATIVE_KEY, FORTMATIC_KEY, PORTIS_KEY } = getConfig();
 
     const rpcUrl = getNetworkRpc(network);
-    const appName = 'DAFIDAO';
+    const appName = 'DE-FI PROTOCOL.COM';
 
     const wallets = [
       { walletName: 'detectedwallet' },

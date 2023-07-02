@@ -49,7 +49,7 @@ Code style follows prettier conventions (`yarn prettier`). Commit messages follo
 
 - set origin to original repo
 
-`$ git remote add origin https://github.com/Da-Fi/dafidao-beta.git`
+`$ git remote add origin https://github.com/De-Fi-Protocol-com/dafidao-beta.git`
 
 `$ git pull origin master --rebase`
 

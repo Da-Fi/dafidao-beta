@@ -11,15 +11,15 @@ interface FooterProps {
 
 const footerLinks = [
   {
-    link: 'https://irp.cdn-website.com/5fabe904/files/uploaded/QODAO_Charter_Community_Gov.pdf',
+    link: '#',
     name: 'dao-gov',
   },
   {
-    link: 'https://www.notion.so/quantumone/Quantum-One-Whitepaper-7df3771e24184020b3ffbf808d140ae6',
+    link: '#',
     name: 'whitepaper',
   },
   {
-    link: 'https://fractal.id/authorize?client_id=rZ0cAmPpY2SPgF4bXqBrzndqoTzk1EYsq4RtQ1fNhe0&redirect_uri=https%3A%2F%2Fquantumone.network%2Fcallback&response_type=code&scope=contact%3Aread%20verification.basic%3Aread%20verification.basic.details%3Aread%20verification.liveness%3Aread%20verification.liveness.details%3Aread',
+    link: '#',
     name: 'verify-id',
   },
   //
@@ -40,24 +40,20 @@ const footerLinks = [
 
 const socialLinks = [
   {
-    link: 'https://twitter.com/quantumonedlt',
+    link: 'https://twitter.com/',
     icon: TwitterIcon,
   },
   {
-    link: 'https://github.com/Quantum-One-DLT',
+    link: 'https://github.com',
     icon: GithubIcon,
   },
   {
-    link: 'https://discord.gg/GZb5Gf7wX5',
+    link: 'https://discord.com',
     icon: DiscordIcon,
   },
   {
-    link: 'https://medium.com/@quantum-one-dao',
+    link: 'https://medium.com/',
     icon: MediumIcon,
-  },
-  {
-    link: 'https://github.com/quantum-one-dlt',
-    icon: GithubIcon,
   },
 ];
 
