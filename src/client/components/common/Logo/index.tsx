@@ -2,7 +2,7 @@ import { FC } from 'react';
 import styled from 'styled-components';
 
 import { ReactComponent as LogoSimple } from '@assets/images/defiproto2.svg';
-import { ReactComponent as LogoFull } from '@assets/images/defiprotocol.svg';
+import { ReactComponent as LogoFull } from '@assets/images/defiprotocolh2.svg';
 
 export interface LogoProps {
   className?: string;
