@@ -44,7 +44,7 @@ const socialLinks = [
     icon: TwitterIcon,
   },
   {
-    link: 'https://github.com',
+    link: 'https://github.com/De-Fi-Protocol-com',
     icon: GithubIcon,
   },
   {
