@@ -24,7 +24,7 @@
     "@gnosis.pm/safe-apps-web3-react": "^1.5.2",
     "@ledgerhq/iframe-provider": "0.4.2",
     "@nivo/core": "^0.68.0",
-    "@nivo/line": "^0.68.0",
+    "@nivo/line": "^0.85.0",
     "@reduxjs/toolkit": "^1.5.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
